@@ -56,7 +56,7 @@ async function tr()
 {
 try{
 
-model=await tf.loadLayersModel("https://juriprudence.github.io/aichat/test.json")
+model=await tf.loadLayersModel("https://juriprudence.github.i/aichat/test.json")
 console.log("load")
 document.getElementById("page1").style.display='block';
 document.getElementById("page2").style.display='none';
@@ -113,7 +113,7 @@ document.getElementById("page2").style.display='none';
 }
 async function savem()
 {
-await model.save("localstorage://test");
+await model.save("downloads://test");
 
 }
 function chatel(text,dir)
